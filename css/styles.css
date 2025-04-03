@@ -7,12 +7,46 @@ body{
    line-height: 1.5;
 }
 
-h1,
+header{
+   height: 72px;
+   width: 100%;
+}
+
+ul {
+   list-style-type: none; 
+}
+
+nav a{
+   color: #2E2F42;
+   text-decoration: none;
+}
+
+nav a:hover {
+   color: #404BBF;
+   text-decoration: none;
+}
+
+nav a:active {
+   color: #404BBF;
+   text-decoration: underline;
+}
+
+address a{
+   color: #434455;
+   text-decoration: none;
+}
+
+address a:hover {
+   color: #404BBF;
+   text-decoration: none;
+}
+
+h1 {
+   color: #fff;
+}
+
 h2,
-h3,
-h4,
-h5,
-h6{
+h3 {
    color: #2E2F42;
 }
 
@@ -46,5 +80,71 @@ a {
    font-weight: 500;
    letter-spacing: 4%;
    cursor: pointer;
+   vertical-align: center;
+   background-color: #4D5AE5;
+   color: white;
+   width: 169px;
+   height: 56px;
+   border-width: 0px;
+   border-radius: 4px;
 }
 
+.cta-btn:hover{
+   color: #404BBF;     
+}
+
+.featers li{
+   
+   width: 264px;
+}
+
+.hero-image{
+  color: #FFF;
+  background-color: #2E2F42;
+  height: 600px;
+  width: 100%;
+}
+
+.logo{
+   font-size: 18px;
+   font-weight: 700;
+   letter-spacing: 3%;
+   line-height: 21px;
+   color: #2E2F42;
+   font-family: "Roboto", sans-serif;
+   text-transform: uppercase;
+}
+
+.logo span{
+   color: #4D5AE5;
+}
+
+.nav a{
+   color: #2E2F42;
+   text-decoration: none;
+}
+
+.sec-team{
+   background-color: #F4F4FD;
+}
+
+.section-portfolio li{
+   background-color: #E7E9FC;
+   width: 360px;
+}
+
+.footer {
+   height: 312px;
+   background-color: #2E2F42;
+}
+
+.footer a{
+   color: #F4F4FD;
+   text-decoration: none;
+}
+
+.footer-txt{
+   color: #F4F4FD;
+   width: 264px;
+   height: 72px;
+}
