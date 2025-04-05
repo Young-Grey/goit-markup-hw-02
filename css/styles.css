@@ -36,6 +36,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+text-decoration: none;
 }
 
 .address-a:hover{
@@ -104,6 +105,7 @@ color: #434455;
    color: #4d5ae5;
    font-family: "Raleway", sans-serif;
    text-transform: uppercase;
+   text-decoration: none;
 }
 
 .logo-head{
@@ -189,6 +191,7 @@ color: #434455;
 
 .logo-footer{
    color: #f4f4fd;
+   text-decoration: none;
 }
 
 .footer {
